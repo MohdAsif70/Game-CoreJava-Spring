@@ -13,7 +13,7 @@ public class LearnSpringFrameworkApplication {
 	public static void main(String[] args) {
 //		MarioGame game = new MarioGame();
 //		SuperContraGame game = new SuperContraGame();
-		GameConsole game = new Pacman();
+		GameConsole game = new Pacman();    ///Just change the game name and it will run.Eg: MarioGame
 		GameRunner runner = new GameRunner(game);
 		runner.run();
 	}
